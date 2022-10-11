@@ -1,0 +1,168 @@
+body{
+    color:#506a85;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.color{
+    color:#506a85;
+    font-size: 11px;
+    font-weight: bold;
+  
+}
+.social_icon{
+    margin-right: 20px;
+    font-size: 10px;
+}
+.top_nav{
+    margin-top: 11px;
+}
+.top_header{
+    font-size: 10px;
+   
+}
+.sh{
+    border-bottom:1px solid #e6e9ed;
+}
+.text{
+    margin-bottom: 200px;
+}
+.carousel-indicators{
+    background-color: white;
+    width: 100px;
+    margin:0 auto -10px;
+}
+.carousel-indicators li{
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+.active_carousal{
+    background-color:#17a78b!important ;
+}
+.carousel-caption{
+    width: 50%;
+}
+.carousel_p{
+    color:#9cabbb;
+}
+.carousel_h{
+    letter-spacing: 3px;
+}
+.overlay{
+    background-color: #09b79c;
+    position: relative;
+    transition: all 1s;
+}
+.overlay:hover{
+    background-color: transparent;
+cursor: pointer;
+}
+.fa-plus{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 20px;
+   
+}
+.plus{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: white;
+    font-size: 20px;
+    z-index: 1;
+}
+.star{
+  color:#00bc9c;
+    font-size: 40px;
+}
+.btn{
+    border-radius: 2px;
+    background-color: #17a78b;
+}
+.text_green{
+    color:#17a78b;
+}
+.big_footer{
+    background-color: #2f4052;
+    color:white;
+}
+
+.big_footer .small{
+    font-size: 12px;
+    color:#8c9aa8;
+}
+.inner_input{
+    background-color: #596675;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+.input{
+    background-color: transparent;
+    border:none;
+   
+}
+.input::placeholder{
+    color:white;
+    font-size: 13px;
+}
+.input_btn{
+    background-color:#17a78b;
+    color: white;
+    font-size: 13px;
+    border: none;
+    border-radius: 3px;
+    padding:7px 0;
+}
+li{
+    list-style: none;
+}
+li a{
+    margin-right: 15px;
+    line-height: 35px;
+    text-decoration:none;
+}
+.su{
+    position:relative;
+}
+.scroll_up{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color:#00bc9c;
+    background-color: #506a85;
+    padding: 10px 15px;
+}
+.scroll_up:hover{
+    cursor: pointer;
+}
+.active,.small.active{
+    color: #00bc9c;
+}
+/* Owl carasoul */
+
+@media all and (max-width: 370px) {
+  
+.navbar-toggler{
+    font-size: 18px;
+    border: none;
+    font-family: sans-serif;
+}
+.color{
+    font-size: 15px;
+    
+}
+.fa-search{
+    font-size: 22px;
+}
+.heading{
+    font-size:25px;
+}
+
+}
+
+
